@@ -1,0 +1,374 @@
+
+.nav-link, .navbar-brand, footer{
+    font-family: 'Playfair Display', serif;
+}
+
+#logo{
+    max-height: 10rem;
+}
+
+
+.centerbutton:hover{
+    background-color: #d39537;
+}
+.centerbutton {
+    margin: 0 auto;
+    border: white;
+    color: #d39537;
+    background-color: white;
+    text-align: center;
+    position:fixed;
+    z-index:50;
+    top:50%;
+    left:45%;
+    margin-top:-23px;
+    margin-left:-50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+
+}
+a{
+    color: #d39537;
+}
+a:hover{
+    color: #d4aa6a;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 2em; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2em; /* Set the fixed height of the footer here */
+    line-height: 2em; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+
+  .carousel-inner img{
+    object-fit: cover;
+  }
+
+  #carousel1{
+      float: left;
+      height: auto;
+      width: 40%;
+      margin-top: 7%;
+      margin-left:5%;
+      margin-right: 5%;
+  }
+
+  #carousel2{
+      float: right;
+      height: auto;
+      width: 40%;
+      margin-top: 7%;
+      margin-right: 5%;
+      margin-left: 5%;
+  }
+
+
+
+/** direction stylings **/
+  #map{
+      float: left;
+      margin-left: 25%;
+      margin-top: 3%;
+  }
+  #directions{
+      float: right;
+      overflow: auto;
+      padding: 5px;
+      margin-right: 15%;
+      margin-top: 3%;
+      max-width: 30%;
+  }
+
+  .dicText{
+    font-family: 'Cairo', sans-serif;
+  }
+
+  .h2, .h3, h2, .h4{
+    font-family: 'Playfair Display', serif;
+  }
+  .h4{
+      margin-top: 10%;
+      font-size: 1em;
+  }
+  .h5{
+      font-size: 1.1em;
+      text-align: center;
+  }
+
+
+  /** menu stylings **/
+
+  .list-group-item{
+    font-family: 'Cairo', sans-serif;
+  }
+  .plate{
+      color: #d39537;
+  }
+  .menutitle{
+      font-size: 5em;
+      text-align: center;
+  }
+  .menuopt{
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-top: 2%;
+  }
+  .menuopt1{
+      margin-top: 4%;
+      margin-bottom: 4%;
+      float: left;
+      margin-left: 25%;
+  }
+  .menuopt2{
+      margin-top: 4%;
+      margin-bottom: 4%;
+      float: right;
+      margin-right: 25%;
+  }
+  .list-group-item{
+      text-align: center;
+      font-size: 1.1em;
+  }
+  .menutitle1{
+      font-size: 4em;
+      text-align: center;
+  }
+  
+  /**CONTACT PAGE STYLES**/
+
+  #contact{
+      margin-top: 1%;
+      margin-left: 25%;
+      margin-right: 25%;
+      max-width: 100%;
+  }
+  #forms{
+      margin-top:3%;
+      margin-left: 25%;
+      
+  }
+  #qs{
+      text-align: center;
+  }
+  #qss{
+      text-align: center;
+  }
+
+
+  label{
+	float: left;
+	width: 8em;
+	display: block;
+    padding-right: 1em;
+    font-family: 'Cairo', sans-serif;
+}
+
+input, textarea {
+    font-family: 'Cairo', sans-serif;
+	display: block;
+	margin-bottom: 1em;
+}
+
+#mySubmit{
+    margin-left: 10em;
+    font-family: 'Cairo', sans-serif;
+}
+
+.textt{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+#textt{
+    font-size: 4em;
+    text-align: center;
+}
+p{
+    font-family: 'Cairo', sans-serif;
+}
+
+/** About Us Stylings**/
+.abutitle{
+    font-size: 4em; text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
+.abutext{
+    font-family:cairo, sans-serif;
+    margin-left: 8em;
+    margin-right: 8em;
+    
+}
+.abulocate{
+    margin-left: 8em;
+    margin-right: 8em;
+    font-family: cairo, sans-serif;
+}
+#aboutus{
+    float: left;
+    margin-left: 15%;
+    max-width: 55%;
+}
+#imgs{
+    margin-top: 4%;
+    margin-right: 5%;
+}
+#img1{
+    border-radius: 50%;
+    max-width: 10%;
+    height: auto;
+    margin-right: 15%;
+    
+}
+#img2{
+    margin-top: 3%;
+    border-radius: 50%;
+    max-width: 10%;
+    height: auto;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+
+/* Gallery Page Styles*/
+.imgs{
+    max-width: 100%;
+    height: auto;
+
+}
+.table{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100%;
+    width: auto;
+    align-content: center;
+    text-align: center;
+}
+#galtext1{
+    margin-bottom: 5%;
+
+}
+
+#galtext1 p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+#galtext {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.galsubtext{
+    font-size: 1em;
+    text-align: right;
+    text-transform: lowercase;
+}
+  
+
+  /* Media quereies go at the bottom */ 
+
+  
+@media only screen and (max-width:1050px){
+
+    #directions{
+        float: none;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top:1%;
+        max-width: 100%;
+    }
+    .h2{
+        text-align: center;
+    }
+    #map{
+        display: none;
+        float: none;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 2%;
+        padding: 0;
+    }
+    .menuopt1, .menuopt2{
+        float: none;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top:1%;
+
+    }
+    .menuopt{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 2%;
+    }
+    footer{
+        display: none;
+    }
+      /** menu stylings **/
+
+  .menutitle{
+      font-size: 3.5em;
+      text-align: center;
+  }
+
+  .list-group-item{
+      text-align: center;
+      font-family: 'Cairo', sans-serif;
+      font-size: 1em;
+  }
+  .menutitle1{
+      font-size: 3.5em;
+      text-align: center
+  }
+
+
+  /** About Us Stylings**/
+.abutitle{
+    font-size: 3em; text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
+.abutext{
+    font-family:cairo, sans-serif;
+    font-size: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    
+}
+
+#aboutus{
+    float: left;
+    margin-left: 20%;
+    max-width: 60%;
+    margin-right: 20%;
+}
+#imgs{
+    margin-top: 4%;
+    margin-right: 5%;
+    display: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+}
